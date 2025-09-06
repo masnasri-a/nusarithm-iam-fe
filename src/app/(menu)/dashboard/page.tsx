@@ -1,7 +1,7 @@
 import { DashboardLayout } from "@/components/dashboard-layout"
 import { ProtectedRoute } from "@/components/protected-route"
 
-export default function Page() {
+export default function DashboardPage() {
   return (
     <ProtectedRoute>
       <DashboardLayout breadcrumb={["Dashboard"]}>
